@@ -25,6 +25,7 @@ function App() {
     newBoard.initCells()
     newBoard.addFigures()
     setBoard(newBoard)
+    setLoser(null)
   }
 
   const swapPlayer = () => {
