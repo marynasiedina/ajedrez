@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .app {
@@ -49,4 +50,22 @@
   width: 12px;
   border-radius: 50%;
   background-color: #22c822;
+}
+
+.playerText {
+  margin: 20px 0;
+}
+
+.lost {
+  height: calc(50vh - 60px);
+  padding: 30px;
+  margin-left: 50px;
+  background-color: lightgray;
+}
+
+.loser {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

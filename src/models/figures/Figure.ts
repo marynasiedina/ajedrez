@@ -39,6 +39,6 @@ export class Figure {
   }
 
   moveFigure(target: Cell) {
-    return this.cell = target
+    // return this.cell = target
   }
 }
